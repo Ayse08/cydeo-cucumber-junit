@@ -19,4 +19,15 @@ public class Login_StepDefinitions {
 
     }
 
+    @When("user enters student username")
+    public void user_enters_student_username() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+    @When("user enters student password")
+    public void user_enters_student_password() {
+        // Write code here that turns the phrase above into concrete actions
+        throw new io.cucumber.java.PendingException();
+    }
+
 }
