@@ -1,0 +1,25 @@
+package com.cydeo.step_definitions;
+
+/*
+In the class we will be able to pass pre & post conditions to each scenario and each step
+ */
+
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import org.junit.runners.Parameterized;
+
+public class Hooks {
+
+    //import from io.cucumber.java and not from junit
+    @Before
+    public void setupScenario(){
+        System.out.println("====Setting up browser using cucumber @Before");
+    }
+
+    @After
+    public void teardownScenario(){
+        System.out.println("====Closing browser using cucumber @After");
+    }
+
+
+}

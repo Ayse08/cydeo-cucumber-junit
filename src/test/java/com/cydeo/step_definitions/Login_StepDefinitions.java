@@ -37,10 +37,11 @@ public class Login_StepDefinitions {
     public void user_enters_admin_password() {
         System.out.println("User enters admin password");
     }
-    @Given("user is on the librarian login page")
-    public void user_is_on_the_librarian_login_page() {
+    @Given("user is on the library login page")
+    public void user_is_on_the_library_login_page() {
         System.out.println("user is on the library login page");
     }
+
 
 
 }
