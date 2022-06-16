@@ -15,7 +15,11 @@ public class WikiSearchPage {
     @FindBy(id = "searchInput")
     public WebElement searchBox;
 
-    @FindBy(xpath = "//button[@class='submit']")
+    @FindBy(xpath = "//button[@type='submit']")
     public WebElement searchButton;
+
+    @FindBy(id = "firstHeading")
+    public WebElement mainHeader;
+
 
 }
