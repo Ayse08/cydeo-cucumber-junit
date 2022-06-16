@@ -9,8 +9,11 @@ import org.junit.runner.RunWith;
         plugin = "html:target/cucumber-report.html",
         features = "src/test/resources/features",
         glue = "com/cydeo/step_definitions",
-        dryRun = false,
+        dryRun = true,
         tags = "@wip"
 )
 public class CukesRunner {
 }
+
+// If we change dryRun to true it will not open the browser, but we need to turn off otherwise it will
+//still running and running
