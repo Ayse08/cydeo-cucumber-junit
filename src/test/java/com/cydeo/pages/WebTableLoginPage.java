@@ -13,10 +13,10 @@ public class WebTableLoginPage {
     }
 
     @FindBy(name= "username")
-    public WebElement inputUsername;
+    public static WebElement inputUsername;
 
     @FindBy(name= "password")
-    public WebElement inputPassword;
+    public static WebElement inputPassword;
 
     @FindBy(xpath = "//button[.='Login']")
     public WebElement loginButton;
