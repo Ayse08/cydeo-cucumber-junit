@@ -32,8 +32,6 @@ public class GoogleStepDefintions {
         Assert.assertEquals("Title is not as expected",expectedTitle, actualTitle);
     }
 
-
-
     @Then("user sees apple in the google title")
     public void user_sees_apple_in_the_google_title() {
 
@@ -44,9 +42,7 @@ public class GoogleStepDefintions {
         Assert.assertEquals("Title is not as expected",expectedTitle, actualTitle);
 
        // Assert.assertTrue(actualTitle.equals(expectedTitle));
-
     }
-
 
     @When("user is on Google search page")
     public void user_is_on_google_search_page() {
@@ -60,6 +56,4 @@ public class GoogleStepDefintions {
 
         Assert.assertEquals(actualTitle, expectedTitle);
     }
-
-
 }
